@@ -42,7 +42,7 @@ class ConfigEditor(wx.Dialog):
             # 开发环境下的路径
             bundle_dir = os.path.dirname(os.path.abspath(__file__))
 
-        self.config_path = os.path.join(bundle_dir, 'config2.json')
+        self.config_path = os.path.join(bundle_dir, 'config.json')
         self.init_ui()
         self.load_config()  # 自动加载配置文件
         self.DisableIME()  # 禁用输入法
